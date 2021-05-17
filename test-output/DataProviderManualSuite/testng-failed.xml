@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataProviderManualSuite]">
+  <test name="DataProviderManual(failed)">
+    <classes>
+      <class name="com.offline.TestCases.LoginTest">
+        <methods>
+          <include name="LoginWithDataProviderManualTest" invocation-numbers="0 1"/>
+          <include name="TearDown"/>
+          <include name="RegisterNewMemberWithDataProviderManualTest" invocation-numbers="0"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.offline.TestCases.LoginTest -->
+      <class name="com.offline.TestCases.UsersTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="AddVUserWithDataProviderManualTest" invocation-numbers="0"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.offline.TestCases.UsersTest -->
+    </classes>
+  </test> <!-- DataProviderManual(failed) -->
+</suite> <!-- Failed suite [DataProviderManualSuite] -->

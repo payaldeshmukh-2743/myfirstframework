@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataProviderManualSuite">
+  <test thread-count="5" name="DataProviderManual">
+    <classes>
+      <class name="com.offline.TestCases.LoginTest"/>
+      <class name="com.offline.TestCases.UsersTest"/>
+    </classes>
+  </test> <!-- DataProviderManual -->
+</suite> <!-- DataProviderManualSuite -->

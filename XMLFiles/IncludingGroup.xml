@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.offline.qa.Util.MyITestListners">
+		</listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <groups>
+  <run>
+  <include  name="smoke"/>
+  <include name="sanity"/>
+  </run>>
+  </groups>
+    <classes>
+      <class name="com.offline.TestCases.OperatorTest"/>
+      <class name="com.offline.TestCases.LoginTest"/>
+      <class name="com.offline.TestCases.DashboardTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
